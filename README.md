@@ -1,12 +1,14 @@
-# React + Vite
+## 📝 Description (Why I'm Building This)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm building this project to practice real-time data communication using WebSocket (Socket.IO) in a practical way. By fetching live cryptocurrency prices from the Binance API and broadcasting them to the frontend, I aim to understand how to build fast and efficient data pipelines between a Node.js server and a client app.
 
-Currently, two official plugins are available:
+This helps me improve skills in:
+- API integration
+- WebSocket performance
+- Real-time UI updates
+- Handling async/parallel data fetching
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It’s also a small step toward building real-world financial or trading dashboards.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+![image](https://github.com/user-attachments/assets/020062c9-a2e3-4d2c-b3bd-33e5cdd5a819)
