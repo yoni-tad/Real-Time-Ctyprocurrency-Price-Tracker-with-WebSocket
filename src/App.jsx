@@ -23,7 +23,7 @@ export default function App() {
     });
 
     return () => {
-      socket.off("btcData");
+      socket.off("currencyData");
     };
   }, []);
 
